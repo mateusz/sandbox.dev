@@ -1,2 +1,3 @@
-infrastructure: master
+infrastructure: 1.1.6
 environment: master
+base: debian-jessie
