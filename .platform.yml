@@ -1,2 +1,2 @@
-infrastructure: 1.1.6
-base: "debian-jessie"
+infrastructure: 1.1.5
+base: "debian-wheezy"
