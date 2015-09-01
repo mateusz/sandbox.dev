@@ -1,2 +1,2 @@
-dsaklk;sda;lkasddaskl;asdkl;
-sdf}}}}
+infrastructure: remove-envs
+base: "debian-jessie"
