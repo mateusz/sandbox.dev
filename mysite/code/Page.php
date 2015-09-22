@@ -21,6 +21,19 @@ class Page extends SiteTree {
 
 class Page_Controller extends ContentController {
 
+	public function getTestDefines() {
+		$defs = array();
+		foreach (get_defined_constants() as $k => $v) {
+			if (strpos($k, 'TEST_')===0) {
+				$defs[] = [
+					'Key' => $k,
+					'Value' => $v
+				];
+			}
+		}
+		return new ArrayList($defs);
+	}
+
 	public function init() {
 		parent::init();
 		Requirements::themedCSS('reset');

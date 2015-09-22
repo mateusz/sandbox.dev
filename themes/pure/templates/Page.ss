@@ -40,6 +40,14 @@
 		</ul>
 		<% end_if %>
 
+		<% if $getTestDefines %>
+			<ul>
+				<% loop $getTestDefines %>
+					<li>$Key: $Value</li>
+				<% end_loop %>
+			</ul>
+		<% end_if %>
+
 		$Layout
 	</div>
 
