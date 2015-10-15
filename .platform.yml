@@ -1,2 +1,1 @@
 infrastructure: missing-baseyml
-base: "debian-jessie"
