@@ -1,6 +1,10 @@
 <?php
 class Page extends SiteTree {
 
+	private static $db = array(
+		"Testing" => "Varchar(255)"
+	);
+
 	public function EnvDetails() {
 
 		$phpExtensionList = new ArrayList();
