@@ -1,1 +1,2 @@
 infrastructure: remove-dev-build
+base: debian-jessie
