@@ -2,7 +2,7 @@
 class Page extends SiteTree {
 
 	private static $db = array(
-		"Testing" => "Varchar(255)"
+		"Testing" => "sdkdsfkljdfslkdfslk"
 	);
 
 	public function EnvDetails() {
