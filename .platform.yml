@@ -1,2 +1,2 @@
-infrastructure: interconnect
+infrastructure: fix-blowgun
 base: "debian-jessie"
