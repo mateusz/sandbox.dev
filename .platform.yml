@@ -1,2 +1,2 @@
-infrastructure: 1.4.2
+infrastructure: vhosts
 base: "debian-jessie"
